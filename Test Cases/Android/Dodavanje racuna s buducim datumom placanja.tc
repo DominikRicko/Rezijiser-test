@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aplikacija bi trebala uspjesno dodati novi racun u bazu i prikazati ga na sucelju s naglaskom na buducem datumu placanja.</description>
+   <name>Dodavanje racuna s buducim datumom placanja</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f107edb5-faf8-4a3b-9a2d-4c2e7a27e75a</testCaseGuid>
+</TestCaseEntity>

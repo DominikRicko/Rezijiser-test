@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aplikacija bi trebala uspjesno ukloniti racun iz baze i sucelja</description>
+   <name>Brisanje racuna</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e6e36e9-bac1-4a22-a411-3e04aa6a6e03</testCaseGuid>
+</TestCaseEntity>

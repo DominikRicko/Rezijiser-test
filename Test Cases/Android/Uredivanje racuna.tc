@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Aplikacija bi trebala omoguciti uredivanje racuna.</description>
+   <name>Uredivanje racuna</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35e240c1-fafe-429d-8565-f57794a699c5</testCaseGuid>
+</TestCaseEntity>
