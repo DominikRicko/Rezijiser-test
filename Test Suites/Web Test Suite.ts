@@ -12,19 +12,25 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>83b7e387-fec1-41a4-9d4a-fe09d894be59</testSuiteGuid>
    <testCaseLink>
-      <guid>f12bdd52-3e33-4cb7-a905-6c9b2dba3aea</guid>
+      <guid>45db2006-b574-4c37-ba23-d65d98c45d82</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Brisanje racuna</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46e4db01-ebc4-40f5-af43-55139dff2e84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Dodavanje novog racuna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5ee508e-ab6e-41c7-bf86-dc86b4e82529</guid>
+      <guid>157829f0-0c51-4bc1-bc60-3dd00f01321f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Prijava s nepostojecim podatcima</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac3f4996-1b78-41b1-b28d-5bede8cc85b6</guid>
+      <guid>eb0f9d26-0e85-4aa5-b853-89665b192601</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Prijava s postojecim podatcima</testCaseId>

@@ -12,13 +12,25 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>f6d587b6-b0f8-41de-9912-68e1720cf593</testSuiteGuid>
    <testCaseLink>
-      <guid>f9feca33-cfa2-4ce2-94b3-5c5d75179a1a</guid>
+      <guid>09e42974-8c19-45bd-ac01-dbacfe0639ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Desktop/Brisanje racuna</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>caccba3e-53a1-403f-821b-7d873c7b400a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Desktop/Dodavanje novog racuna</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e1501b5d-1e2f-4dc7-bcc6-78566bc953a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Desktop/Prijava s nepostojecim podatcima</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>98ee07e9-33ec-4232-b00e-4bcd8054d9f8</guid>
+      <guid>6df0eb1b-eddc-4f23-9fb2-66a8e719995d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Desktop/Prijava s postojecim podatcima</testCaseId>

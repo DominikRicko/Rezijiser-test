@@ -17,21 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Windows.startApplicationWithTitle('C:\\Users\\stjep\\AppData\\Local\\Programs\\Rezijiser\\Rezijiser.exe', 'Rezijiser')
 
-WebUI.navigateToUrl('https://rezijiser.herokuapp.com/web/#/login')
+Windows.setText(findWindowsObject('Desktop_Rezijiser/Edit'), 'slavko.slavkic@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'), 'slavko.slavkic@gmail.com')
+Windows.setEncryptedText(findWindowsObject('Object Repository/Desktop_Rezijiser/Edit-delete'), 'wbCVaHpczzJVmXhK6nq/oA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Rezijiser/input_Email_mat-input-1'), 'wbCVaHpczzJVmXhK6nq/oA==')
+Windows.click(findWindowsObject('Desktop_Rezijiser/Button'))
 
-WebUI.click(findTestObject('Object Repository/Page_Rezijiser/button_Prijava'))
+Windows.click(findWindowsObject('Object Repository/Desktop_Rezijiser/HyperLink-delete'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Rezijiser/a_Odjava'))
+Windows.click(findWindowsObject('Object Repository/Desktop_Rezijiser/Text-delete'))
 
-WebUI.click(findTestObject('Object Repository/Page_Rezijiser/i_Plin_icon reservation'))
-
-WebUI.click(findTestObject('Object Repository/Page_Rezijiser/i_Da_fas fa-trash fa-lg button-spacing point'))
-
-WebUI.closeBrowser()
+Windows.closeApplication()
 
