@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Da_fas fa-trash fa-lg button-spacing point</name>
+   <name>i_Plin_icon reservation</name>
    <tag></tag>
-   <elementGuidId>4c081c27-4948-42cb-8f3b-1ca559fed638</elementGuidId>
+   <elementGuidId>041f313d-dfeb-48d3-a932-5b2ecf859a19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>i.fas.fa-trash.fa-lg.button-spacing.point</value>
+         <value>i.icon.reservation</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-cell[5]/i</value>
+         <value>//li[4]/a/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,20 +28,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fas fa-trash fa-lg button-spacing point</value>
+      <value>icon reservation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;fix-container&quot;]/div[@class=&quot;fix-container remove-spacing full-view background background-trash&quot;]/mat-table[@class=&quot;mat-table cdk-table mat-sort full-table transparent&quot;]/mat-row[@class=&quot;mat-row cdk-row ng-star-inserted&quot;]/mat-cell[@class=&quot;mat-cell cdk-cell cdk-column-action mat-column-action ng-star-inserted&quot;]/i[@class=&quot;fas fa-trash fa-lg button-spacing point&quot;]</value>
+      <value>/html[1]/body[1]/app-root[1]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;fix-container&quot;]/app-navigation[1]/section[@class=&quot;navbar container-default&quot;]/div[@class=&quot;fix-container&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;reservation&quot;]/a[1]/i[@class=&quot;icon reservation&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-cell[5]/i</value>
+      <value>//li[4]/a/i</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -10,11 +10,15 @@
          <value>#mat-option-3 > span.mat-option-text</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Pričuva ' or . = ' Pričuva ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-3']/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
