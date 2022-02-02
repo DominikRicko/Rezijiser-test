@@ -12,15 +12,21 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>83b7e387-fec1-41a4-9d4a-fe09d894be59</testSuiteGuid>
    <testCaseLink>
-      <guid>d4f374ee-711f-4ceb-a8af-6c56f1b135b5</guid>
+      <guid>f12bdd52-3e33-4cb7-a905-6c9b2dba3aea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pokusaj prijave s nepostojecim podatcima</testCaseId>
+      <testCaseId>Test Cases/Web/Dodavanje novog racuna</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e298b284-3561-4329-8200-95a97e51c71d</guid>
+      <guid>f5ee508e-ab6e-41c7-bf86-dc86b4e82529</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pokusaj prijave s postojecim podatcima</testCaseId>
+      <testCaseId>Test Cases/Web/Prijava s nepostojecim podatcima</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ac3f4996-1b78-41b1-b28d-5bede8cc85b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Prijava s postojecim podatcima</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Pokusaj prijave s postojecim podatcima treba rezultirati prikazom pocetne stranice web aplikacije.</description>
-   <name>Pokusaj prijave s postojecim podatcima</name>
+   <name>Prijava s postojecim podatcima</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e968c8cb-f137-4adb-8b72-2c4fd72e6795</testCaseGuid>

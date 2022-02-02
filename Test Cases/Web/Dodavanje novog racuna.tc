@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pokusaj prijave s postojecim podatcima treba rezultirati prikazom pocetne stranice web aplikacije.</description>
+   <name>Dodavanje novog racuna</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>573927f9-683a-4f45-9d21-dfa4b5ab3f92</testCaseGuid>
+</TestCaseEntity>

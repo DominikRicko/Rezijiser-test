@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Prijava</name>
+   <name>div_Priuva  Tip</name>
    <tag></tag>
-   <elementGuidId>52619a09-a759-4e5b-bd17-b6e22d029587</elementGuidId>
+   <elementGuidId>00887703-c412-49d6-bb51-3d7abb2f4cee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block</value>
+         <value>div.mat-form-field-infix.ng-tns-c43-8</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Lozinka:'])[1]/following::button[1]</value>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/app-bill/form/mat-form-field[4]/div/div/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,72 +21,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
+      <value>mat-form-field-infix ng-tns-c43-8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Prijava
-        </value>
+      <value>
+    
+    Pričuva
+  Tip *</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;col-md-12 fullscreen&quot;]/div[@class=&quot;card card-container form-shape&quot;]/form[@class=&quot;col-md-12 ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;col-md-12&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <value>id(&quot;mat-dialog-0&quot;)/app-bill[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/mat-form-field[@class=&quot;mat-form-field form-input ng-tns-c43-8 mat-primary ng-star-inserted mat-form-field-type-mat-select mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-should-float ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c43-8&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c43-8&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c43-8&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lozinka:'])[1]/following::button[1]</value>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/app-bill/form/mat-form-field[4]/div/div/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cijena'])[1]/following::div[14]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registriraj se'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Prijava']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Datum plaćanja'])[1]/following::div[29]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
+      <value>//mat-form-field[4]/div/div/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Prijava
-        ' or . = 'Prijava
-        ')]</value>
+      <value>//div[(text() = '
+    
+    Pričuva
+  Tip *' or . = '
+    
+    Pričuva
+  Tip *')]</value>
    </webElementXpaths>
 </WebElementEntity>

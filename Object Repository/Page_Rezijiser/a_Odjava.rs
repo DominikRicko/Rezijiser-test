@@ -6,12 +6,12 @@
    <elementGuidId>5a024ed3-ee25-483f-a566-91a660b079db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Ispis'])[1]/following::a[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.headerText.logout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Ispis'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

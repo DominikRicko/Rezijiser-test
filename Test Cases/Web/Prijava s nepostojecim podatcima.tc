@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Pokusaj prijave s nepostojecim podatcima treba rezultirati prikazom pogreške.</description>
-   <name>Pokusaj prijave s nepostojecim podatcima</name>
+   <name>Prijava s nepostojecim podatcima</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4ba0f29f-0ed8-4cfc-a7a4-30aabe38af50</testCaseGuid>

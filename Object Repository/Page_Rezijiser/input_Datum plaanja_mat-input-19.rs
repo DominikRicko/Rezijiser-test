@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Email_mat-input-1</name>
+   <name>input_Datum plaanja_mat-input-19</name>
    <tag></tag>
-   <elementGuidId>46e5e927-c309-47db-9042-dbcbe6f97c06</elementGuidId>
+   <elementGuidId>cc996181-0ecd-4a69-bed2-83a53a2ecc9a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#mat-input-1</value>
+         <value>#mat-input-19</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-1']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,32 +24,25 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
-      <value>password</value>
+      <value>cost</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-tns-c43-1 ng-untouched cdk-text-field-autofill-monitored ng-dirty ng-valid</value>
+      <value>mat-input-element mat-form-field-autofill-control ng-tns-c43-73 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-input-1</value>
+      <value>mat-input-19</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,36 +54,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-invalid</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-input-1&quot;)</value>
+      <value>id(&quot;mat-input-19&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mat-input-1']</value>
+      <value>//input[@id='mat-input-19']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-3']/app-bill/form/mat-form-field[3]/div/div/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-form-field[2]/div/div/div[3]/input</value>
+      <value>//mat-form-field[3]/div/div/div[3]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'mat-input-1']</value>
+      <value>//input[@id = 'mat-input-19']</value>
    </webElementXpaths>
 </WebElementEntity>

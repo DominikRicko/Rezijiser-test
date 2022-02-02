@@ -6,12 +6,12 @@
    <elementGuidId>4f040a0e-d386-4b80-a626-666e2ae10c23</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-0']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-input-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='mat-input-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
