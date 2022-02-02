@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pokusaj prijave s postojecim podatcima treba rezultirati prikazom pocetne stranice aplikacije.</description>
+   <name>Prijava s postojecim podatcima</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3e9e083-6cd8-434d-9cdd-4def0be68f49</testCaseGuid>
+</TestCaseEntity>
