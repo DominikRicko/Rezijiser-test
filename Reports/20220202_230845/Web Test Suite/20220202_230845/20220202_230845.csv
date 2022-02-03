@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web Test Suite,Chrome 97.0.4692.99,Kolekcija testova koji provjeravaju funkcionalnost web sučelja.,,2022-02-02 23:08:59,2022-02-02 23:10:29,"1m - 30,353s",PASSED
+,,,,,,,
+Test Cases/Web/Brisanje racuna,Chrome 97.0.4692.99,Aplikacija bi trebala uspjesno ukloniti racun iz baze i sucelja,,2022-02-02 23:09:00,2022-02-02 23:09:22,"21,905s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 23:09:03,2022-02-02 23:09:10,"7,748s",PASSED
+"navigateToUrl(""https://rezijiser.herokuapp.com/web/#/login"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:10,2022-02-02 23:09:12,"1,692s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0""), ""slavko.slavkic@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:12,2022-02-02 23:09:14,"1,763s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Rezijiser/input_Email_mat-input-1""), ""wbCVaHpczzJVmXhK6nq/oA=="")",Chrome 97.0.4692.99,,,2022-02-02 23:09:14,2022-02-02 23:09:15,"0,985s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/button_Prijava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:15,2022-02-02 23:09:16,"0,668s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Rezijiser/a_Odjava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:16,2022-02-02 23:09:18,"1,956s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/i_Plin_icon reservation""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:18,2022-02-02 23:09:20,"2,629s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/i_Da_fas fa-trash fa-lg button-spacing point""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:20,2022-02-02 23:09:21,"0,813s",PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-02 23:09:21,2022-02-02 23:09:22,"1,096s",PASSED
+,,,,,,,
+Test Cases/Web/Dodavanje novog racuna,Chrome 97.0.4692.99,Aplikacija bi trebala uspjesno dodati novi racun u bazu i prikazati ga na sucelju.,,2022-02-02 23:09:22,2022-02-02 23:09:40,"17,741s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 23:09:23,2022-02-02 23:09:25,"1,928s",PASSED
+"navigateToUrl(""https://rezijiser.herokuapp.com/web/#/login"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:25,2022-02-02 23:09:27,"1,382s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0""), ""slavko.slavkic@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:27,2022-02-02 23:09:28,"1,154s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Rezijiser/input_Email_mat-input-1""), ""wbCVaHpczzJVmXhK6nq/oA=="")",Chrome 97.0.4692.99,,,2022-02-02 23:09:28,2022-02-02 23:09:28,"0,535s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/button_Prijava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:28,2022-02-02 23:09:29,"0,535s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Rezijiser/a_Odjava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:29,2022-02-02 23:09:31,"2,469s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/button_Rezijiser_btn-new""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:31,2022-02-02 23:09:32,"0,675s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_concat(id(, , mat-input-2, , ))_mat-input-2""), ""2/15/2022"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:32,2022-02-02 23:09:33,"1,033s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_Datum dospijea_mat-input-3""), ""2/5/2022"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:33,2022-02-02 23:09:35,"1,462s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_Datum plaanja_mat-input-4""), ""80.5"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:35,2022-02-02 23:09:36,"0,974s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/div_Cijena_mat-select-arrow-wrapper ng-tns-c64-9""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:36,2022-02-02 23:09:36,"0,553s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/span_Priuva""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:36,2022-02-02 23:09:37,"0,683s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/button_Dodaj""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:37,2022-02-02 23:09:38,"1,135s",PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-02 23:09:38,2022-02-02 23:09:40,"1,924s",PASSED
+,,,,,,,
+Test Cases/Web/Prijava s nepostojecim podatcima,Chrome 97.0.4692.99,Pokusaj prijave s nepostojecim podatcima treba rezultirati prikazom pogreške.,,2022-02-02 23:09:40,2022-02-02 23:09:48,"8,637s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 23:09:41,2022-02-02 23:09:43,"2,048s",PASSED
+"navigateToUrl(""https://rezijiser.herokuapp.com/web/#/login"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:43,2022-02-02 23:09:44,"1,370s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0""), ""testing.test@testing.co"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:44,2022-02-02 23:09:46,"1,273s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Rezijiser/input_Email_mat-input-1""), ""wbCVaHpczzJVmXhK6nq/oA=="")",Chrome 97.0.4692.99,,,2022-02-02 23:09:46,2022-02-02 23:09:46,"0,586s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/button_Prijava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:46,2022-02-02 23:09:47,"0,588s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Rezijiser/span_Greka prilikom prijave""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:47,2022-02-02 23:09:48,"0,970s",PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-02 23:09:48,2022-02-02 23:09:48,"0,715s",PASSED
+,,,,,,,
+Test Cases/Web/Prijava s postojecim podatcima,Chrome 97.0.4692.99,Pokusaj prijave s postojecim podatcima treba rezultirati prikazom pocetne stranice web aplikacije.,,2022-02-02 23:09:48,2022-02-02 23:10:29,"40,794s",PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-02 23:09:49,2022-02-02 23:09:51,"1,762s",PASSED
+"navigateToUrl(""https://rezijiser.herokuapp.com/web/#/login"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:51,2022-02-02 23:09:52,"1,235s",PASSED
+"setText(findTestObject(""Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0""), ""slavko.slavkic@gmail.com"")",Chrome 97.0.4692.99,,,2022-02-02 23:09:52,2022-02-02 23:09:53,"1,202s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Rezijiser/input_Email_mat-input-1""), ""wbCVaHpczzJVmXhK6nq/oA=="")",Chrome 97.0.4692.99,,,2022-02-02 23:09:53,2022-02-02 23:09:54,"0,660s",PASSED
+"click(findTestObject(""Object Repository/Page_Rezijiser/button_Prijava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:54,2022-02-02 23:09:55,"0,546s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Rezijiser/a_Odjava""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:55,2022-02-02 23:09:56,"1,146s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Rezijiser/span_Struja""))",Chrome 97.0.4692.99,,,2022-02-02 23:09:56,2022-02-02 23:10:28,"31,972s",PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-02 23:10:28,2022-02-02 23:10:29,"1,638s",PASSED

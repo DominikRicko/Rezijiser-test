@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web Test Suite" time="90.353" tests="4" failures="0" errors="0">
+   <testsuite name="Web Test Suite" tests="4" failures="0" errors="0" time="90.353" skipped="0" timestamp="2022-02-02 23:08:59" hostname="stjep - Ryzen-Laptop" id="Test Suites/Web Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\stjep\\Katalon Studio\\Rezijiser\\Reports\\20220202_230845\\Web Test Suite\\20220202_230845"/>
+         <property name="logFiles" value="C:\\Users\\stjep\\Katalon Studio\\Rezijiser\\Reports\\20220202_230845\\Web Test Suite\\20220202_230845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="stjep - Ryzen-Laptop"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="10.28.7.97"/>
+         <property name="sessionId" value="62687c2afb86b99af734a133a87d98f4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web/Brisanje racuna" time="21.905" classname="Test Cases/Web/Brisanje racuna" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:09:00 - [TEST_CASE][PASSED] - Test Cases/Web/Brisanje racuna: Test Cases/Web/Brisanje racuna
+
+2022-02-02 23:09:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-02 23:09:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-02 23:09:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-02 23:09:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-02 23:09:10 - [TEST_STEP][PASSED] - navigateToUrl("https://rezijiser.herokuapp.com/web/#/login"): Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:12 - [MESSAGE][PASSED] - Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0"), "slavko.slavkic@gmail.com"): Text 'slavko.slavkic@gmail.com' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:14 - [MESSAGE][PASSED] - Text 'slavko.slavkic@gmail.com' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Rezijiser/input_Email_mat-input-1"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/button_Prijava")): Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Rezijiser/a_Odjava")): Object 'Object Repository/Page_Rezijiser/a_Odjava' is visible
+
+2022-02-02 23:09:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Rezijiser/a_Odjava' is visible
+
+2022-02-02 23:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/i_Plin_icon reservation")): Object: 'Object Repository/Page_Rezijiser/i_Plin_icon reservation' is clicked on
+
+2022-02-02 23:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/i_Plin_icon reservation' is clicked on
+
+2022-02-02 23:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/i_Da_fas fa-trash fa-lg button-spacing point")): Object: 'Object Repository/Page_Rezijiser/i_Da_fas fa-trash fa-lg button-spacing point' is clicked on
+
+2022-02-02 23:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/i_Da_fas fa-trash fa-lg button-spacing point' is clicked on
+
+2022-02-02 23:09:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-02 23:09:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Dodavanje novog racuna" time="17.741" classname="Test Cases/Web/Dodavanje novog racuna" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:09:22 - [TEST_CASE][PASSED] - Test Cases/Web/Dodavanje novog racuna: Test Cases/Web/Dodavanje novog racuna
+
+2022-02-02 23:09:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-02 23:09:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-02 23:09:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-02 23:09:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-02 23:09:25 - [TEST_STEP][PASSED] - navigateToUrl("https://rezijiser.herokuapp.com/web/#/login"): Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:27 - [MESSAGE][PASSED] - Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0"), "slavko.slavkic@gmail.com"): Text 'slavko.slavkic@gmail.com' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:28 - [MESSAGE][PASSED] - Text 'slavko.slavkic@gmail.com' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Rezijiser/input_Email_mat-input-1"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/button_Prijava")): Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Rezijiser/a_Odjava")): Object 'Object Repository/Page_Rezijiser/a_Odjava' is visible
+
+2022-02-02 23:09:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Rezijiser/a_Odjava' is visible
+
+2022-02-02 23:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/button_Rezijiser_btn-new")): Object: 'Object Repository/Page_Rezijiser/button_Rezijiser_btn-new' is clicked on
+
+2022-02-02 23:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/button_Rezijiser_btn-new' is clicked on
+
+2022-02-02 23:09:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_concat(id(, , mat-input-2, , ))_mat-input-2"), "2/15/2022"): Text '2/15/2022' is set on object 'Object Repository/Page_Rezijiser/input_concat(id(, , mat-input-2, , ))_mat-input-2'
+
+2022-02-02 23:09:33 - [MESSAGE][PASSED] - Text '2/15/2022' is set on object 'Object Repository/Page_Rezijiser/input_concat(id(, , mat-input-2, , ))_mat-input-2'
+
+2022-02-02 23:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_Datum dospijea_mat-input-3"), "2/5/2022"): Text '2/5/2022' is set on object 'Object Repository/Page_Rezijiser/input_Datum dospijea_mat-input-3'
+
+2022-02-02 23:09:35 - [MESSAGE][PASSED] - Text '2/5/2022' is set on object 'Object Repository/Page_Rezijiser/input_Datum dospijea_mat-input-3'
+
+2022-02-02 23:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_Datum plaanja_mat-input-4"), "80.5"): Text '80.5' is set on object 'Object Repository/Page_Rezijiser/input_Datum plaanja_mat-input-4'
+
+2022-02-02 23:09:36 - [MESSAGE][PASSED] - Text '80.5' is set on object 'Object Repository/Page_Rezijiser/input_Datum plaanja_mat-input-4'
+
+2022-02-02 23:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/div_Cijena_mat-select-arrow-wrapper ng-tns-c64-9")): Object: 'Object Repository/Page_Rezijiser/div_Cijena_mat-select-arrow-wrapper ng-tns-c64-9' is clicked on
+
+2022-02-02 23:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/div_Cijena_mat-select-arrow-wrapper ng-tns-c64-9' is clicked on
+
+2022-02-02 23:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/span_Priuva")): Object: 'Object Repository/Page_Rezijiser/span_Priuva' is clicked on
+
+2022-02-02 23:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/span_Priuva' is clicked on
+
+2022-02-02 23:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/button_Dodaj")): Object: 'Object Repository/Page_Rezijiser/button_Dodaj' is clicked on
+
+2022-02-02 23:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/button_Dodaj' is clicked on
+
+2022-02-02 23:09:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-02 23:09:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Prijava s nepostojecim podatcima" time="8.637" classname="Test Cases/Web/Prijava s nepostojecim podatcima" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:09:40 - [TEST_CASE][PASSED] - Test Cases/Web/Prijava s nepostojecim podatcima: Test Cases/Web/Prijava s nepostojecim podatcima
+
+2022-02-02 23:09:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-02 23:09:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-02 23:09:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-02 23:09:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-02 23:09:43 - [TEST_STEP][PASSED] - navigateToUrl("https://rezijiser.herokuapp.com/web/#/login"): Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:44 - [MESSAGE][PASSED] - Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0"), "testing.test@testing.co"): Text 'testing.test@testing.co' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:46 - [MESSAGE][PASSED] - Text 'testing.test@testing.co' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Rezijiser/input_Email_mat-input-1"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/button_Prijava")): Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Rezijiser/span_Greka prilikom prijave")): Object 'Object Repository/Page_Rezijiser/span_Greka prilikom prijave' is visible
+
+2022-02-02 23:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Rezijiser/span_Greka prilikom prijave' is visible
+
+2022-02-02 23:09:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-02 23:09:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Prijava s postojecim podatcima" time="40.794" classname="Test Cases/Web/Prijava s postojecim podatcima" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:09:48 - [TEST_CASE][PASSED] - Test Cases/Web/Prijava s postojecim podatcima: Test Cases/Web/Prijava s postojecim podatcima
+
+2022-02-02 23:09:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-02 23:09:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-02 23:09:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-02 23:09:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-02 23:09:51 - [TEST_STEP][PASSED] - navigateToUrl("https://rezijiser.herokuapp.com/web/#/login"): Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:52 - [MESSAGE][PASSED] - Navigate to 'https://rezijiser.herokuapp.com/web/#/login' successfully
+
+2022-02-02 23:09:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0"), "slavko.slavkic@gmail.com"): Text 'slavko.slavkic@gmail.com' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:53 - [MESSAGE][PASSED] - Text 'slavko.slavkic@gmail.com' is set on object 'Object Repository/Page_Rezijiser/input_Rezijiser_mat-input-0'
+
+2022-02-02 23:09:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Rezijiser/input_Email_mat-input-1"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Rezijiser/input_Email_mat-input-1'
+
+2022-02-02 23:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Rezijiser/button_Prijava")): Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Rezijiser/button_Prijava' is clicked on
+
+2022-02-02 23:09:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Rezijiser/a_Odjava")): Object 'Object Repository/Page_Rezijiser/a_Odjava' is visible
+
+2022-02-02 23:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Rezijiser/a_Odjava' is visible
+
+2022-02-02 23:09:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Page_Rezijiser/span_Struja")): Object 'Object Repository/Page_Rezijiser/span_Struja' is visible
+
+2022-02-02 23:10:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-02 23:10:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Rezijiser/span_Struja'. Try using Self-healing.
+
+2022-02-02 23:10:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Rezijiser/span_Struja' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Slavko Slavkić'])[1]/following::span[1]'.
+
+2022-02-02 23:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Rezijiser/span_Struja' is visible
+
+2022-02-02 23:10:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-02-02 23:10:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-02 23:08:59 - [TEST_SUITE][PASSED] - Web Test Suite: Test Cases/Web/Prijava s postojecim podatcima]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

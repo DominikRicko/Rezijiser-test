@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Windows tests" time="136.28" tests="4" failures="0" errors="0">
+   <testsuite name="Windows tests" tests="4" failures="0" errors="0" time="136.28" skipped="0" timestamp="2022-02-02 23:10:20" hostname="stjep - Ryzen-Laptop" id="Test Suites/Windows tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\stjep\\Katalon Studio\\Rezijiser\\Reports\\20220202_231009\\Windows tests\\20220202_231009"/>
+         <property name="logFiles" value="C:\\Users\\stjep\\Katalon Studio\\Rezijiser\\Reports\\20220202_231009\\Windows tests\\20220202_231009\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="stjep - Ryzen-Laptop"/>
+         <property name="hostAddress" value="10.28.7.97"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Desktop/Brisanje racuna" time="37.013" classname="Test Cases/Desktop/Brisanje racuna" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:10:21 - [TEST_CASE][PASSED] - Test Cases/Desktop/Brisanje racuna: Test Cases/Desktop/Brisanje racuna
+
+2022-02-02 23:10:22 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe", "Rezijiser"): The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:10:22 - [MESSAGE][INFO] - Starting application C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe on the local machine at address http://127.0.0.1:4723
+
+2022-02-02 23:10:31 - [MESSAGE][PASSED] - The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:10:31 - [TEST_STEP][PASSED] - setText(findWindowsObject("Desktop_Rezijiser/Edit"), "slavko.slavkic@gmail.com"): Text slavko.slavkic@gmail.com is set
+
+2022-02-02 23:10:42 - [MESSAGE][PASSED] - Text slavko.slavkic@gmail.com is set
+
+2022-02-02 23:10:42 - [TEST_STEP][PASSED] - setEncryptedText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit-delete"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Desktop_Rezijiser/Edit-delete'
+
+2022-02-02 23:10:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Desktop_Rezijiser/Edit-delete'
+
+2022-02-02 23:10:47 - [TEST_STEP][PASSED] - click(findWindowsObject("Desktop_Rezijiser/Button")): Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:10:49 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Button
+
+2022-02-02 23:10:50 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:10:50 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/HyperLink-delete")): Click on element: Object Repository/Desktop_Rezijiser/HyperLink-delete succesfully
+
+2022-02-02 23:10:54 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/HyperLink-delete
+
+2022-02-02 23:10:54 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/HyperLink-delete succesfully
+
+2022-02-02 23:10:54 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/Text-delete")): Click on element: Object Repository/Desktop_Rezijiser/Text-delete succesfully
+
+2022-02-02 23:10:57 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Text-delete
+
+2022-02-02 23:10:58 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Text-delete succesfully
+
+2022-02-02 23:10:58 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-02-02 23:10:58 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Desktop/Dodavanje novog racuna" time="69.671" classname="Test Cases/Desktop/Dodavanje novog racuna" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:10:58 - [TEST_CASE][PASSED] - Test Cases/Desktop/Dodavanje novog racuna: Test Cases/Desktop/Dodavanje novog racuna
+
+2022-02-02 23:10:59 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe", "Rezijiser"): The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:10:59 - [MESSAGE][INFO] - Starting application C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe on the local machine at address http://127.0.0.1:4723
+
+2022-02-02 23:11:01 - [MESSAGE][PASSED] - The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:11:01 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit"), "slavko.slavkic@gmail.com"): Text slavko.slavkic@gmail.com is set
+
+2022-02-02 23:11:08 - [MESSAGE][PASSED] - Text slavko.slavkic@gmail.com is set
+
+2022-02-02 23:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit(1)"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Desktop_Rezijiser/Edit(1)'
+
+2022-02-02 23:11:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Desktop_Rezijiser/Edit(1)'
+
+2022-02-02 23:11:11 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/Button")): Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:11:12 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Button
+
+2022-02-02 23:11:13 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:11:13 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/Button(1)")): Click on element: Object Repository/Desktop_Rezijiser/Button(1) succesfully
+
+2022-02-02 23:11:16 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Button(1)
+
+2022-02-02 23:11:17 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Button(1) succesfully
+
+2022-02-02 23:11:17 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit(2)"), "2/15/2022"): Text 2/15/2022 is set
+
+2022-02-02 23:11:23 - [MESSAGE][PASSED] - Text 2/15/2022 is set
+
+2022-02-02 23:11:23 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit(3)"), "2/5/2022"): Text 2/5/2022 is set
+
+2022-02-02 23:11:28 - [MESSAGE][PASSED] - Text 2/5/2022 is set
+
+2022-02-02 23:11:28 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit(4)"), "80"): Text 80 is set
+
+2022-02-02 23:11:31 - [MESSAGE][PASSED] - Text 80 is set
+
+2022-02-02 23:11:31 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/ComboBox")): Click on element: Object Repository/Desktop_Rezijiser/ComboBox succesfully
+
+2022-02-02 23:11:32 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/ComboBox
+
+2022-02-02 23:11:32 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/ComboBox succesfully
+
+2022-02-02 23:11:32 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/List")): Click on element: Object Repository/Desktop_Rezijiser/List succesfully
+
+2022-02-02 23:11:34 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/List
+
+2022-02-02 23:11:35 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/List succesfully
+
+2022-02-02 23:11:35 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit Potrosnja"), "4"): Text 4 is set
+
+2022-02-02 23:11:39 - [MESSAGE][PASSED] - Text 4 is set
+
+2022-02-02 23:11:39 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/Button(2)")): Click on element: Object Repository/Desktop_Rezijiser/Button(2) succesfully
+
+2022-02-02 23:11:40 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Button(2)
+
+2022-02-02 23:11:40 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Button(2) succesfully
+
+2022-02-02 23:11:40 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/HyperLink")): Click on element: Object Repository/Desktop_Rezijiser/HyperLink succesfully
+
+2022-02-02 23:12:07 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/HyperLink
+
+2022-02-02 23:12:07 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/HyperLink succesfully
+
+2022-02-02 23:12:07 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-02-02 23:12:08 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Desktop/Prijava s nepostojecim podatcima" time="13.887" classname="Test Cases/Desktop/Prijava s nepostojecim podatcima" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:12:08 - [TEST_CASE][PASSED] - Test Cases/Desktop/Prijava s nepostojecim podatcima: Test Cases/Desktop/Prijava s nepostojecim podatcima
+
+2022-02-02 23:12:09 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe", "Rezijiser"): The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:12:09 - [MESSAGE][INFO] - Starting application C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe on the local machine at address http://127.0.0.1:4723
+
+2022-02-02 23:12:11 - [MESSAGE][PASSED] - The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:12:11 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit"), "testing.test@testing.co"): Text testing.test@testing.co is set
+
+2022-02-02 23:12:17 - [MESSAGE][PASSED] - Text testing.test@testing.co is set
+
+2022-02-02 23:12:17 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit(1)"), "Oreokeksi1?"): Text Oreokeksi1? is set
+
+2022-02-02 23:12:20 - [MESSAGE][PASSED] - Text Oreokeksi1? is set
+
+2022-02-02 23:12:20 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/Button")): Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:12:21 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Button
+
+2022-02-02 23:12:21 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:12:21 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-02-02 23:12:22 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Desktop/Prijava s postojecim podatcima" time="14.958" classname="Test Cases/Desktop/Prijava s postojecim podatcima" status="PASSED">
+         <system-out><![CDATA[2022-02-02 23:12:22 - [TEST_CASE][PASSED] - Test Cases/Desktop/Prijava s postojecim podatcima: Test Cases/Desktop/Prijava s postojecim podatcima
+
+2022-02-02 23:12:22 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe", "Rezijiser"): The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:12:22 - [MESSAGE][INFO] - Starting application C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe on the local machine at address http://127.0.0.1:4723
+
+2022-02-02 23:12:25 - [MESSAGE][PASSED] - The application at location: C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe started.
+
+2022-02-02 23:12:25 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit"), "slavko.slavkic@gmail.com"): Text slavko.slavkic@gmail.com is set
+
+2022-02-02 23:12:30 - [MESSAGE][PASSED] - Text slavko.slavkic@gmail.com is set
+
+2022-02-02 23:12:30 - [TEST_STEP][PASSED] - setEncryptedText(findWindowsObject("Object Repository/Desktop_Rezijiser/Edit(1)"), "wbCVaHpczzJVmXhK6nq/oA=="): Text ****** has been set on object 'Object Repository/Desktop_Rezijiser/Edit(1)'
+
+2022-02-02 23:12:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Desktop_Rezijiser/Edit(1)'
+
+2022-02-02 23:12:33 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/Button")): Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:12:33 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/Button
+
+2022-02-02 23:12:33 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/Button succesfully
+
+2022-02-02 23:12:33 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/Desktop_Rezijiser/HyperLink")): Click on element: Object Repository/Desktop_Rezijiser/HyperLink succesfully
+
+2022-02-02 23:12:36 - [MESSAGE][INFO] - Clicking on element: Object Repository/Desktop_Rezijiser/HyperLink
+
+2022-02-02 23:12:36 - [MESSAGE][PASSED] - Click on element: Object Repository/Desktop_Rezijiser/HyperLink succesfully
+
+2022-02-02 23:12:36 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-02-02 23:12:37 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-02 23:10:20 - [TEST_SUITE][PASSED] - Windows tests: Test Cases/Desktop/Prijava s postojecim podatcima]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

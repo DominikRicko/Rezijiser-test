@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Windows tests,,,,2022-02-02 23:10:20,2022-02-02 23:12:37,"2m - 16,280s",PASSED
+,,,,,,,
+Test Cases/Desktop/Brisanje racuna,,Aplikacija bi trebala uspjesno ukloniti racun iz baze i sucelja,,2022-02-02 23:10:21,2022-02-02 23:10:58,"37,013s",PASSED
+"startApplicationWithTitle(""C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe"", ""Rezijiser"")",,,,2022-02-02 23:10:22,2022-02-02 23:10:31,"9,477s",PASSED
+"setText(findWindowsObject(""Desktop_Rezijiser/Edit""), ""slavko.slavkic@gmail.com"")",,,,2022-02-02 23:10:31,2022-02-02 23:10:42,"10,489s",PASSED
+"setEncryptedText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit-delete""), ""wbCVaHpczzJVmXhK6nq/oA=="")",,,,2022-02-02 23:10:42,2022-02-02 23:10:47,"4,553s",PASSED
+"click(findWindowsObject(""Desktop_Rezijiser/Button""))",,,,2022-02-02 23:10:47,2022-02-02 23:10:50,"3,373s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/HyperLink-delete""))",,,,2022-02-02 23:10:50,2022-02-02 23:10:54,"4,034s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/Text-delete""))",,,,2022-02-02 23:10:54,2022-02-02 23:10:58,"3,795s",PASSED
+closeApplication(),,,,2022-02-02 23:10:58,2022-02-02 23:10:58,"0,269s",PASSED
+,,,,,,,
+Test Cases/Desktop/Dodavanje novog racuna,,Aplikacija bi trebala uspjesno dodati novi racun u bazu i prikazati ga na sucelju.,,2022-02-02 23:10:58,2022-02-02 23:12:08,"1m - 9,671s",PASSED
+"startApplicationWithTitle(""C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe"", ""Rezijiser"")",,,,2022-02-02 23:10:59,2022-02-02 23:11:01,"2,272s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit""), ""slavko.slavkic@gmail.com"")",,,,2022-02-02 23:11:01,2022-02-02 23:11:08,"6,284s",PASSED
+"setEncryptedText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit(1)""), ""wbCVaHpczzJVmXhK6nq/oA=="")",,,,2022-02-02 23:11:08,2022-02-02 23:11:11,"3,720s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/Button""))",,,,2022-02-02 23:11:11,2022-02-02 23:11:13,"1,202s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/Button(1)""))",,,,2022-02-02 23:11:13,2022-02-02 23:11:17,"4,133s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit(2)""), ""2/15/2022"")",,,,2022-02-02 23:11:17,2022-02-02 23:11:23,"5,973s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit(3)""), ""2/5/2022"")",,,,2022-02-02 23:11:23,2022-02-02 23:11:28,"4,883s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit(4)""), ""80"")",,,,2022-02-02 23:11:28,2022-02-02 23:11:31,"3,778s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/ComboBox""))",,,,2022-02-02 23:11:31,2022-02-02 23:11:32,"1,074s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/List""))",,,,2022-02-02 23:11:32,2022-02-02 23:11:35,"2,216s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit Potrosnja""), ""4"")",,,,2022-02-02 23:11:35,2022-02-02 23:11:39,"4,284s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/Button(2)""))",,,,2022-02-02 23:11:39,2022-02-02 23:11:40,"0,960s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/HyperLink""))",,,,2022-02-02 23:11:40,2022-02-02 23:12:07,"27,365s",PASSED
+closeApplication(),,,,2022-02-02 23:12:07,2022-02-02 23:12:08,"0,446s",PASSED
+,,,,,,,
+Test Cases/Desktop/Prijava s nepostojecim podatcima,,Pokusaj prijave s nepostojecim podatcima treba rezultirati prikazom pogreške.,,2022-02-02 23:12:08,2022-02-02 23:12:22,"13,887s",PASSED
+"startApplicationWithTitle(""C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe"", ""Rezijiser"")",,,,2022-02-02 23:12:09,2022-02-02 23:12:11,"2,177s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit""), ""testing.test@testing.co"")",,,,2022-02-02 23:12:11,2022-02-02 23:12:17,"6,119s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit(1)""), ""Oreokeksi1?"")",,,,2022-02-02 23:12:17,2022-02-02 23:12:20,"3,447s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/Button""))",,,,2022-02-02 23:12:20,2022-02-02 23:12:21,"0,974s",PASSED
+closeApplication(),,,,2022-02-02 23:12:21,2022-02-02 23:12:22,"0,197s",PASSED
+,,,,,,,
+Test Cases/Desktop/Prijava s postojecim podatcima,,Pokusaj prijave s postojecim podatcima treba rezultirati prikazom pocetne stranice aplikacije.,,2022-02-02 23:12:22,2022-02-02 23:12:37,"14,958s",PASSED
+"startApplicationWithTitle(""C:\Users\stjep\AppData\Local\Programs\Rezijiser\Rezijiser.exe"", ""Rezijiser"")",,,,2022-02-02 23:12:22,2022-02-02 23:12:25,"2,180s",PASSED
+"setText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit""), ""slavko.slavkic@gmail.com"")",,,,2022-02-02 23:12:25,2022-02-02 23:12:30,"5,304s",PASSED
+"setEncryptedText(findWindowsObject(""Object Repository/Desktop_Rezijiser/Edit(1)""), ""wbCVaHpczzJVmXhK6nq/oA=="")",,,,2022-02-02 23:12:30,2022-02-02 23:12:33,"2,667s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/Button""))",,,,2022-02-02 23:12:33,2022-02-02 23:12:33,"0,748s",PASSED
+"click(findWindowsObject(""Object Repository/Desktop_Rezijiser/HyperLink""))",,,,2022-02-02 23:12:33,2022-02-02 23:12:36,"2,796s",PASSED
+closeApplication(),,,,2022-02-02 23:12:36,2022-02-02 23:12:37,"0,375s",PASSED

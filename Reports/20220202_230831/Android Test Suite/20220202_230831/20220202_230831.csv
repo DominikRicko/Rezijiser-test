@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Android Test Suite,,,,2022-02-02 23:08:41,2022-02-02 23:11:18,"2m - 37,392s",PASSED
+,,,,,,,
+Test Cases/Android/Brisanje racuna,,Aplikacija bi trebala uspjesno ukloniti racun iz baze i sucelja,,2022-02-02 23:08:41,2022-02-02 23:09:29,"48,078s",PASSED
+"startApplication(""C:\Users\stjep\Desktop\rezijiser.apk"", true)",,,,2022-02-02 23:08:42,2022-02-02 23:09:19,"36,482s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - Voda (1)""), 0)",,,,2022-02-02 23:09:19,2022-02-02 23:09:21,"2,407s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - 25.1.2022""), 0)",,,,2022-02-02 23:09:21,2022-02-02 23:09:23,"1,841s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View (1)""), 0)",,,,2022-02-02 23:09:23,2022-02-02 23:09:25,"1,691s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - DA""), 0)",,,,2022-02-02 23:09:25,2022-02-02 23:09:27,"1,866s",PASSED
+"getText(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - Jo nema unosa""), 0)",,,,2022-02-02 23:09:27,2022-02-02 23:09:27,"0,602s",PASSED
+closeApplication(),,,,2022-02-02 23:09:27,2022-02-02 23:09:29,"2,253s",PASSED
+,,,,,,,
+Test Cases/Android/Dodavanje novog racuna,,Aplikacija bi trebala uspjesno dodati novi racun u bazu i prikazati ga na sucelju.,,2022-02-02 23:09:29,2022-02-02 23:10:01,"31,292s",PASSED
+"startApplication(""C:\Users\stjep\Desktop\rezijiser.apk"", true)",,,,2022-02-02 23:09:31,2022-02-02 23:09:54,"22,649s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - Voda""), 0)",,,,2022-02-02 23:09:54,2022-02-02 23:09:55,"1,139s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View""), 0)",,,,2022-02-02 23:09:55,2022-02-02 23:09:57,"1,682s",PASSED
+"setText(findTestObject(""Object Repository/Android_Rezijiser/android.widget.EditText""), ""80"", 0)",,,,2022-02-02 23:09:57,2022-02-02 23:09:57,"0,776s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - PLAEN""), 0)",,,,2022-02-02 23:09:57,2022-02-02 23:09:58,"0,605s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - SPREMI""), 0)",,,,2022-02-02 23:09:58,2022-02-02 23:09:59,"1,192s",PASSED
+closeApplication(),,,,2022-02-02 23:09:59,2022-02-02 23:10:01,"1,589s",PASSED
+,,,,,,,
+Test Cases/Android/Dodavanje racuna s buducim datumom placanja,,Aplikacija bi trebala uspjesno dodati novi racun u bazu i prikazati ga na sucelju s naglaskom na buducem datumu placanja.,,2022-02-02 23:10:01,2022-02-02 23:10:38,"37,442s",PASSED
+"startApplication(""C:\Users\stjep\Desktop\rezijiser.apk"", true)",,,,2022-02-02 23:10:02,2022-02-02 23:10:27,"25,332s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View (2)""), 0)",,,,2022-02-02 23:10:27,2022-02-02 23:10:29,"2,000s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View (3)""), 0)",,,,2022-02-02 23:10:29,2022-02-02 23:10:31,"1,739s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - 15""), 0)",,,,2022-02-02 23:10:31,2022-02-02 23:10:32,"1,584s",PASSED
+"setText(findTestObject(""Object Repository/Android_Rezijiser/android.widget.EditText (1)""), ""100"", 0)",,,,2022-02-02 23:10:32,2022-02-02 23:10:33,"0,877s",PASSED
+"setText(findTestObject(""Object Repository/Android_Rezijiser/android.widget.EditText (2)""), ""Racun s nekom biljeskom"", 0)",,,,2022-02-02 23:10:33,2022-02-02 23:10:34,"0,668s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - SPREMI (1)""), 0)",,,,2022-02-02 23:10:34,2022-02-02 23:10:35,"1,338s",PASSED
+"getText(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - Nadolazei rauni""), 0)",,,,2022-02-02 23:10:35,2022-02-02 23:10:36,"0,381s",PASSED
+closeApplication(),,,,2022-02-02 23:10:36,2022-02-02 23:10:38,"2,566s",PASSED
+,,,,,,,
+Test Cases/Android/Uredivanje racuna,,Aplikacija bi trebala omoguciti uredivanje racuna.,,2022-02-02 23:10:38,2022-02-02 23:11:18,"39,873s",PASSED
+"startApplication(""C:\Users\stjep\Desktop\rezijiser.apk"", true)",,,,2022-02-02 23:10:40,2022-02-02 23:11:07,"27,039s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - Voda (2)""), 0)",,,,2022-02-02 23:11:07,2022-02-02 23:11:09,"1,767s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - 25.1.2022 (1)""), 0)",,,,2022-02-02 23:11:09,2022-02-02 23:11:10,"1,575s",PASSED
+"setText(findTestObject(""Object Repository/Android_Rezijiser/android.widget.EditText - 0.87""), ""87"", 0)",,,,2022-02-02 23:11:10,2022-02-02 23:11:11,"0,857s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - PLAEN (1)""), 0)",,,,2022-02-02 23:11:11,2022-02-02 23:11:12,"0,609s",PASSED
+"tap(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - SPREMI IZMJENE""), 0)",,,,2022-02-02 23:11:12,2022-02-02 23:11:14,"1,651s",PASSED
+"getText(findTestObject(""Object Repository/Android_Rezijiser/android.view.View - 87.0 kn""), 0)",,,,2022-02-02 23:11:14,2022-02-02 23:11:15,"1,113s",PASSED
+closeApplication(),,,,2022-02-02 23:11:15,2022-02-02 23:11:18,"3,425s",PASSED
