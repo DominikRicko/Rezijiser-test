@@ -1,0 +1,9 @@
+GET /web/assets/ HTTP/1.1
+Host: rezijiser.herokuapp.com
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: https://rezijiser.herokuapp.com/
+Host: -->">'>'"<sfi000071v420667>
+

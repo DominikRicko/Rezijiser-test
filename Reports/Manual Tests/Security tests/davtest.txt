@@ -1,0 +1,6 @@
+┌──(kali㉿kali)-[~]
+└─$ davtest -url rezijiser.herokuapp.com/web
+********************************************************
+ Testing DAV connection
+OPEN            FAIL:   rezijiser.herokuapp.com/web     The URL "rezijiser.herokuapp.com/web/" is not DAV enabled or not accessible.
+                                           

@@ -1,0 +1,8 @@
+GET /web/main.78ec11b84d6d2795.js/ HTTP/1.1
+Host: rezijiser.herokuapp.com
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: https://rezijiser.herokuapp.com/
+

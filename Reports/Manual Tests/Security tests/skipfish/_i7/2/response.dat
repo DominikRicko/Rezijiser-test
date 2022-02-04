@@ -1,0 +1,21 @@
+HTTP/1.1 200 
+Server: Cowboy
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Last-Modified: Wed, 26 Jan 2022 13:04:53 GMT
+Accept-Ranges: bytes
+Content-Range: bytes 0-3901/3902
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+Content-Type: image/x-icon
+Content-Length: 3902
+Date: Fri, 04 Feb 2022 00:35:40 GMT
+Via: 1.1 vegur
+

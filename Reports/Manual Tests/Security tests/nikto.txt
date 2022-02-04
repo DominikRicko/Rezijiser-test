@@ -1,0 +1,24 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          54.228.42.199
++ Target Hostname:    rezijiser.herokuapp.com
++ Target Port:        80
++ Message:            Multiple IP addresses found: 54.228.42.199, 34.241.115.67, 54.78.134.111
++ Start Time:         2022-02-04 00:50:43 (GMT0)
+---------------------------------------------------------------------------
++ Server: Cowboy
++ Retrieved via header: 1.1 vegur
++ / - Requires Authentication for realm 'Realm'
++ Uncommon header 'content-disposition' found, with contents: inline;filename=f.txt
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Server banner has changed from 'Cowboy' to 'heroku-router' which may suggest a WAF, load balancer or proxy is in place
++ Retrieved access-control-allow-origin header: nikto.example.com
++ Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, OPTIONS 
++ OSVDB-397: HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
++ OSVDB-5646: HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.
++ OSVDB-3092: /web/: This might be interesting...
++ ERROR: Error limit (20) reached for host, giving up. Last error: error reading HTTP response
++ Scan terminated:  13 error(s) and 7 item(s) reported on remote host
++ End Time:           2022-02-04 00:58:17 (GMT0) (454 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
